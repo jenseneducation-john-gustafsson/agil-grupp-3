@@ -1,5 +1,11 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <h1 style="color: white">Test</h1>
+  </div>
 </template>
 
-<script></script>
+<style lang="scss" scoped>
+.home {
+  background-color: #0652dd;
+}
+</style>
