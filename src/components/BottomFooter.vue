@@ -44,15 +44,9 @@ export default {
   position: fixed;
   width: 100%;
   margin-bottom: 10px;
-  margin-right: 10px;
   bottom: 0;
   }
-.copy {
-  width: 100%;
-  font-size: 12px;
-  padding: 10px;
-  border-top: 1px solid rgb(156, 154, 154);
-}
+
 
 .soc-media-content {
   display: flex;
