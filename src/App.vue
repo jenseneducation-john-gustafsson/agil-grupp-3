@@ -5,9 +5,21 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view class="width" />
+
+    <BottomFooter />
   </div>
+
 </template>
 
+<script>
+import BottomFooter from "./components/BottomFooter.vue";
+export default {
+  components: {
+    BottomFooter,
+  },
+  
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
