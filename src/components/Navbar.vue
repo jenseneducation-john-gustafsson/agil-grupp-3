@@ -6,11 +6,11 @@
         ><i class="fas fa-home nav-icons"></i>
         <p>Hem</p>
       </router-link>
-      <router-link to="/"
+      <router-link to="/about"
         ><i class="fas fa-address-card nav-icons"></i>
         <p>Om oss</p></router-link
       >
-      <router-link to="/"
+      <router-link to="/contact"
         ><i class="fas fa-envelope nav-icons"></i>
         <p>Kontakt</p>
       </router-link>

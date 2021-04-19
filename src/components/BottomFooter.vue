@@ -43,7 +43,6 @@ export default {
   background-color: #0652dd;
   position: fixed;
   width: 100%;
-  margin-bottom: 10px;
   bottom: 0;
   }
 
