@@ -1,39 +1,51 @@
 <template>
   <div class="contact">
-    <div class="form-body">
-        <div id="form-form">
-            <h3 class="form-h3">Kontakta Oss</h3>
+    <h1>Kontakta Oss</h1>
+    <form action="" method="POST">
+        <label for="firstname">Namn</label>
+        <input type="text" name="firstname" id="firstname" required pattern="^[a-zA-Z]+$">
 
-            <form id="form-form-id" class="form-form-class">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
 
-                <div class="form-form-group">
-                    <label for="Name" class="form-label">Namn</label>
-                    <div class="form-input-group">
-                        <input type="text" id="Name" name="Name" class="form-form-control" required>
-                    </div>
-                </div>
+        <label for="comment">Din fråga</label>
+        <textarea name="comment" id="comment" rows="10"></textarea>
 
-                <div class="form-form-group">
-                    <label for="Email" class="form-label">Epost</label>
-                    <div class="form-input-group">
-                        <input type="email" id="Email" name="Email" class="form-form-control" required>
-                    </div>
-                </div>
-
-                <div class="form-form-group">
-                    <label for="Message" class="form-label">Din fråga</label>
-                    <div class="form-input-group">
-                        <textarea id="Message" name="Message" class="form-form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-
-                <div class="form-form-group">
-                    <button type="submit" id="form-button" class="form-btn form-btn-primary form-btn-lg form-btn-block">Send Message</button>
-                </div>
-            </form>
-        </div>
-    </div>
+        <button>Skicka</button>
+    </form>
   </div>
 </template>
 
 
+<style scoped>
+.contact {
+    width: 500px;
+    margin: 20px auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.form-row {
+    margin: 10px 0;
+}
+h1 {
+    text-align: center;
+}
+button {
+    width:520px;
+    padding: 5px;
+    background: #0652dd;
+    color: white;
+
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+</style>
