@@ -66,7 +66,7 @@ export default {
 <style scoped>
 .footer-middle {
   background-color: #0652dd;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   bottom: 0;
 }
