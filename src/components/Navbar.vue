@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="navbar-contianer">
     <h1>Bolagsnamn & Partners AB</h1>
     <nav class="nav">
       <router-link to="/"
@@ -23,7 +23,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.container {
+.navbar-contianer {
   background-color: #0652dd;
 }
 
@@ -48,8 +48,7 @@ h1 {
   a {
     text-decoration: none;
     color: white;
-    //   display: block;
-    margin: 20px;
+    margin: 0 20px 0;
   }
 
   a:hover {
