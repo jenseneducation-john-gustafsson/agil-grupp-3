@@ -95,7 +95,7 @@ h2 {
 }
 
 .profile-image {
-  max-height: 200px;
+  max-height: 150px;
   max-width: 200px;
   margin: auto;
 }
