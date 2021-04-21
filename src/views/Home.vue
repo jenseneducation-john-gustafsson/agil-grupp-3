@@ -22,7 +22,7 @@
 
 <style lang="scss" scoped>
 .home {
-  margin-bottom: 15%;
+  margin-bottom: 2%;
 }
 .center {
   text-align: center;
