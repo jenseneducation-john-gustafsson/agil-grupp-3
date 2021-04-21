@@ -1,6 +1,6 @@
 <template>
   <div class="navbar-contianer">
-    <h1>Bolagsnamn & Partners AB</h1>
+    <h1>Konsulter & Partners AB</h1>
     <nav class="nav">
       <router-link to="/"
         ><i class="fas fa-home nav-icons"></i>
