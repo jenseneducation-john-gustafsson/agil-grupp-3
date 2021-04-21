@@ -1,16 +1,16 @@
 <template>
   <div class="about">
     <div id="container">
-      <h1>Det här är en om oss sida</h1>
+      <h1>Om oss</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
       <br>
-      <br>
-      <h2>Teamet här hos Bolagsnamn & Partners AB</h2>
+      <h2>Teamet här hos Konsulter & Partners AB</h2>
       <div id="profile-container">
 
         <!-- Oskar profile card -->
+        <router-link to="/oskar">
         <div class="profile-card">
           <div class="profile-oskar">
             <div class="profile-image">
@@ -22,8 +22,10 @@
             </p>
           </div>
         </div>
+        </router-link>
 
         <!-- Josef profile card -->
+         <router-link to="/josef">
         <div class="profile-card">
           <div class="profile-josef">
             <div class="profile-image">
@@ -35,8 +37,10 @@
             </p>
           </div>
         </div>
+         </router-link>
 
         <!-- John profile card -->
+         <router-link to="/john">
         <div class="profile-card">
           <div class="profile-john">
             <div class="profile-image">
@@ -48,8 +52,10 @@
             </p>
           </div>
         </div>
+         </router-link>
 
         <!-- Ivy profile card -->
+         <router-link to="/ivy">
         <div class="profile-card">
           <div class="profile-ivy">
             <div class="profile-image">
@@ -61,6 +67,7 @@
             </p>
           </div>
         </div>
+         </router-link>
 
       </div>
     </div>
@@ -103,12 +110,20 @@ h2 {
 .profile-card {
   background: white;
   padding: 10px;
-  border: 3px ridge;
+  border: 2px ridge;
   margin-right: 10px;
   margin-left: 10px;
 }
 
 .profile-text {
   text-align: left;
+}
+a {
+    text-decoration: none;
+    color: rgb(77, 71, 71);
+  }
+
+a:visited {
+color: none;
 }
 </style>
