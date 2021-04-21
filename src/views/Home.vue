@@ -21,6 +21,9 @@
 </template>
 
 <style lang="scss" scoped>
+.home {
+  margin-bottom: 15%;
+}
 .center {
   text-align: center;
 }
