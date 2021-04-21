@@ -8,7 +8,7 @@
 
             <div class="adress-area">
               <p class="para1">
-                Bolagsnamn & Partners AB <br />
+                Konsulter & Partners AB <br />
             &copy; Copyright 2021. All rights
             reserved.<br />
             <br />
@@ -89,6 +89,9 @@ export default {
 }
 .copy {
   padding: 10px;
+}
+.adress-area {
+  margin-bottom: -72px;
 }
 .soc-media-content {
   display: flex;
