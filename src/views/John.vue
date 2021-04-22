@@ -86,7 +86,7 @@
                       <h6 class="mb-0">Adress</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      Stockholms Allé 3
+                      Stockholms Allé 3, 123 45 Stockholm
                     </div>
                   </div>
                 </div>
