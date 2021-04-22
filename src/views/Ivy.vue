@@ -77,7 +77,7 @@
                       <h6 class="mb-0">Mobil nr</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      (0707) 944 973
+                      (0701) 234 567
                     </div>
                   </div>
                   <hr>
