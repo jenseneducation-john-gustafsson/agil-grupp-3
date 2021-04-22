@@ -157,6 +157,7 @@ export default {
   margin-top: 15px;
   margin-left:5%;
   margin-right: 5%;
+  font-size: 13px;
 }
 .para1, .para2 {
   color: #ffff;
